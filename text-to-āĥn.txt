@@ -1,0 +1,426 @@
+###name, Name of your translator...:
+Text to Āĥn
+
+
+###subtitle, Subtitle (optional):
+
+
+
+###language1, Language1 name...:
+Text
+
+
+###language2, Language2 name...:
+Āĥn
+
+
+###description, Description...:
+IMPORTANT: There's a bug with Lingojam where all periods (.) behave somewhat strangely in RegEx logic. To solve this, replace all your periods with a middle dot (·), double comma (,,) or double colon (::), and the translator will turn them back into periods automatically after they've been processed.
+
+This is a dumb code where vowels become diacritics and consonants are shuffled around. Works with the English letters A-Z and also the letters Ä Ö Ü ß Å É. Doesn't handle capitalization very well, but that's an engine bug and won't be fixed.
+
+Update: Now uses Y in place of W and apostrophes in place of dashes  
+Update 2: Now uses quote marks and asterisks instead of multiple apostrophes in a row  
+Update 3: Now doesn't use Y at all, leading vowels are instead looped around to the final letter  
+Update 4: Now translates the word "you" and related words (your, you're, yourself etc.) into "¤" (¤e, ¤'é, ¤eóum). In my opinion, this looks better than "̄̂̃*", especially for such a common word.  
+Update 5: Now uses dotless ı instead of i, to avoid confusion with the translation of "tä"  
+Update 6: Now automatically converts I to J and U to W in some cases to aid in legibility  
+Update 7: Now places leading vowels on the first letter instead of on the last letter. Also, RegEx logic can now handle infinite complexity
+
+
+###email, Admin email (optional)...:
+isakhammarlund@gmail.com
+
+
+###phrases1, Language1...:
+.
+
+
+###phrases2, Language2...:
+·
+
+
+###words1, Language1...:
+.
+
+
+###words2, Language2...:
+·
+
+
+###intraword1, Language1...:
+.
+
+
+###intraword2, Language2...:
+·
+
+
+###prefixes1, Language1...:
+.
+
+
+###prefixes2, Language2...:
+·
+
+
+###suffixes1, Language1...:
+.
+
+
+###suffixes2, Language2...:
+·
+
+
+###regex1, Replace this...:
+/å/g
+/ä/g
+/ö/g
+/ü/g
+/é/g
+/[̧̨́̀̋̏̈̂̃̉̄̇̊͛̌̽̍]/g
+/([^a-zåäöüéß]|^)you(r|rs|rself|rselves|re|ll|dve|d|ve|all|'r|'re|'ll|'d've|'d|'ve|s|se|ses|)(?=[^a-zåäöüéß']|'[^a-zåäöüéß]|$)/g
+/å/g
+/ä/g
+/ö/g
+/ü/g
+/é/g
+/([äǟáǻấàầâẩẫãāǡåȧảȁ])/g
+/([ắằẵẳ])/g
+/([ậ])/g
+/([ǽǣ])/g
+/([ḃ])/g
+/([ćḉĉċç])/g
+/([ḋḑ])/g
+/([ëéḗếèḕềêểễẽēėẻȅȩ])/g
+/([ệ])/g
+/([ḟ])/g
+/([ǵĝḡġģ])/g
+/([ḧĥḣḩ])/g
+/([ïḯíìîĩīıỉȉ])/g
+/([ĵ])/g
+/([ḱķ])/g
+/([ĺļ])/g
+/([ḹ])/g
+/([ḿṁ])/g
+/([ńǹñṅņ])/g
+/([öȫṏóṍṓốòṑồôổỗõȭōȱȯỏőȍ])/g
+/([ớờỡở])/g
+/([ộ])/g
+/([ǭ])/g
+/([ǿ])/g
+/([ṕṗ])/g
+/([ŕṙȑŗ])/g
+/([ṝ])/g
+/([śṥŝṡş])/g
+/([ṧ])/g
+/([ṩ])/g
+/([ẗṫţ])/g
+/([üǖǘǚǜṻúṹùûũūůủűȕ])/g
+/([ứừữử])/g
+/([ṽ])/g
+/([ẅẃẁŵẇ])/g
+/([ẍẋ])/g
+/([ÿýỳŷỹȳẙẏỷӳ])/g
+/([źẑż])/g
+/([äëïöüÿḧẅẍẗ])/g
+/([ǖǟȫ])/g
+/([ǘḯ])/g
+/([ǚ])/g
+/([ǜ])/g
+/([áéíóúýćĺńŕśźǵǽǿḱḿṕẃắớứ])/g
+/([ṥ])/g
+/([àèìòùǹẁằờừỳ])/g
+/([âêîôûĉĝĥĵŝŵŷẑậệộ])/g
+/([ấếố])/g
+/([ầềồ])/g
+/([ẩểổ])/g
+/([ẫễỗ])/g
+/([ãñõĩũṽẵẽỡữỹ])/g
+/([ṏ])/g
+/([ṍṹ])/g
+/([ȭ])/g
+/([āēīōūǣǭȳḡḹṝ])/g
+/([ṻ])/g
+/([ḗṓ])/g
+/([ḕṑ])/g
+/([åůẙ])/g
+/([ǻ])/g
+/([ċėġıżȧȯḃḋḟḣṁṅṗṙṡṧṩṫẇẋẏ])/g
+/([ǡȱ])/g
+/([ảẳẻỉỏởủửỷ])/g
+/([őűӳ])/g
+/([ȁȅȉȍȑȕ])/g
+/([çģķļņŗşţȩḑḩ])/g
+/([ḉ])/g
+/a/g
+/e/g
+/i/g
+/o/g
+/u/g
+/y/g
+/n/g
+/r/g
+/t/g
+/s/g
+/l/g
+/d/g
+/m/g
+/g/g
+/v/g
+/h/g
+/k/g
+/f/g
+/p/g
+/b/g
+/j/g
+/c/g
+/x/g
+/w/g
+/z/g
+/q/g
+/ß/g
+̄
+/([^́̀̋̏̈̂̃̉̄̇̊͛̌̽a-z¤]|^)(’|‘)(.*?)\2([^́̀̋̏̈̂̃̉̄̇̊͛̌̽a-z]|$)/g
+/(?<=^[^́̀̋̏̈̂̃̉̄̇̊͛̌̽a-z]*)["“”„](?=[^́̀̋̏̈̂̃̉̄̇̊͛̌̽a-z])/g
+/["“”„](.*?)["“”]/g
+/["“”„]/g
+/'|’|‘/g
+/¤͛/g
+/(?<=([a-z])([́̀̋̏̈̂̃̉̄̇̊͛̌̽]*|\1))\1/g
+/\*/g
+/(?<=[a-z][́̀̋̏̈̂̃̉̄̇̊͛̌̽̍]*)([^́̀̋̏̈̂̃̉̄̇̊͛̌̽̍a-z][^a-z]*[́̀̋̏̈̂̃̉̄̇̊͛̌̽̍][^a-z]*)/g
+/^([^́̀̋̏̈̂̃̉̄̇̊͛̌̽̍a-z]*[́̀̋̏̈̂̃̉̄̇̊͛̌̽̍][^a-z]*)([a-z][́̀̋̏̈̂̃̉̄̇̊͛̌̽̍]*)/g
+/(?<=[a-z][́̀̋̏̈̂̃̉̄̇̊͛̌̽̍]*[^a-z]*)[^́̀̋̏̈̂̃̉̄̇̊͛̌̽̍a-z](?=[^a-z]*¦)/g
+/(?<=¦[^a-z]*)[́̀̋̏̈̂̃̉̄̇̊͛̌̽̍][́̀̋̏̈̂̃̉̄̇̊͛̌̽̍][́̀̋̏̈̂̃̉̄̇̊͛̌̽̍]/g
+/(?<=¦[^a-z]*)[́̀̋̏̈̂̃̉̄̇̊͛̌̽̍][́̀̋̏̈̂̃̉̄̇̊͛̌̽̍]/g
+/(?<=¦[^a-z]*)([́̀̋̏̈̂̃̉̄̇̊͛̌̽̍])/g
+/¦/g
+/(?<=[́̀̋̏̈̂̃̉̄̇̊͛̌̽̍a-z0-9]) +(?=['"*])/g
+/(?<=[^́̀̋̏̈̂̃̉̄̇̊͛̌̽̍a-z'"*]) +(?=['"*]+( +|$))/g
+/ +(?= )/g
+/(?<=[aeiou][́̀̋̏̈̂̃̉̄̇̊͛̌̽̍]*)([iu][́̀̋̏̈̂̃̉̄̇̊͛̌̽̍]*[aeiou])/g
+/u(?=[́̀̋̏̈̂̃̉̄̇̊͛̌̽̍]*[aeio])/g
+/i(?=[́̀̋̏̈̂̃̉̄̇̊͛̌̽̍]*[aeou])/g
+/(?<=[aeo][́̀̋̏̈̂̃̉̄̇̊͛̌̽̍]*)u/g
+/¦/g
+/([a-z])̍/g
+/̍̍̍/g
+/̍̍/g
+([^ ] *)([ij]̧?)̇
+/i/g
+/j/g
+/ģ/g
+/^ /g
+/·|,,|::/g
+
+
+###regex2, with this...:
+å
+ä
+ö
+ü
+é
+
+$1¤$2
+̊
+̇
+̉
+̏
+̋
+a$1
+ă$1
+ạ$1
+æ$1
+b$1
+c$1
+d$1
+e$1
+ẹ$1
+f$1
+g$1
+h$1
+i$1
+j$1
+k$1
+l$1
+ḷ$1
+m$1
+n$1
+o$1
+ơ$1
+ọ$1
+ǫ$1
+ø$1
+p$1
+r$1
+ṛ$1
+s$1
+š$1
+ṣ$1
+t$1
+u$1
+ư$1
+v$1
+w$1
+x$1
+y$1
+z$1
+̈̌
+̈̌̄̌
+̈̌́̌
+̈̌̌
+̈̌̀̌
+́̌
+́̌̇̌
+̀̌
+̂̌
+̂̌́̌
+̂̌̀̌
+̂̌̉̌
+̂̌̃̌
+̃̌
+̃̌̈̌
+̃̌́̌
+̃̌̄̌
+̄̌
+̄̌̈̌
+̄̌́̌
+̄̌̀̌
+̊̌
+̊̌́̌
+̇̌
+̇̌̄̌
+̉̌
+̋̌
+̏̌
+͛̌
+͛̌́̌
+̈
+́
+̀
+̂
+̃
+̄
+a
+e
+i
+o
+u
+n
+r
+d
+l
+s
+h
+m
+k
+g
+v
+t
+f
+p
+b
+z
+c
+j
+$1«$3»$4
+»
+«$1»
+«
+͛
+¤'
+̍
+^
+$1¦$1
+¦$1$2$1¦
+
+*
+"
+'
+
+
+
+
+¦$1
+w
+j
+w
+
+$1̧
+̾
+̎
+$1$2̇̇
+ı
+ȷ
+g̨
+
+.
+
+
+
+
+###rev_regex1, Replace this...:
+
+
+
+###rev_regex2, with this...:
+
+
+
+###ordering1, Language1...:
+
+
+
+###ordering2, Language2...:
+
+
+
+###defaulttext, One random default text string per line...:
+Fascism in Germany in the 1930s, a 160-page Powerpoint
+Qing dynasty, Schming dynasty· Sell them the opium!
+She said "do you love me", I tell her "only partly, I only love my anime figurines, I'm sorry"
+The language's name "Nykod" means "newcode" in Swedish - it's a placeholder name that stuck·
+The jingle asks the young girl: "What would you do for a Klondike bar?" She responds: "I'd kill a man·" The ad cuts to her enjoying a Klondike bar; this implies she killed a man·
+Did you ever hear the tragedy of Darth Plagueis the Wise? I thought not· It's not a story the Jedi would tell you·
+What? You're leaving me for another man? I won't lie, babe, that's kinda sus·
+"Gadzooks," quoth I, "but here's a saucy bawd!"
+
+
+###disable-reverse, :
+on
+
+
+###custom-script, Define your functions here...:
+
+
+
+###title-extra, e.g. '(and reverse translation)':
+
+
+
+###background-image-source, http://example.com/my_image.png:
+
+
+
+###title-font-name, Name of custom font...:
+
+
+
+###title-font-size, Size of title (default=5.5)...:
+
+
+
+###language1-font, Language1 font...:
+
+
+
+###language2-font, Language2 font...:
+
+
+
+###language1-font-size, Language1 font size (default=24)...:
+
+
+
+###language2-font-size, Language2 font size (default=24)...:
