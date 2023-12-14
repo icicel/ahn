@@ -15,10 +15,7 @@ StringCaseSense, On
 <^>!´::Send {U+030B} ;double acute a̋
 <^>!+´::Send {U+030F} ;double grave ȁ
 <^>!'::Send {U+0309} ;hook ả
-<^>!+'::Send {U+031B} ;horn a̛
-+-::Send {U+0332} ;underline a̲
 <^>!-::Send {U+0304} ;macron ā
-<^>!+-:: Send {U+0331} ;macron below a̱
 <^>!+.::Send {U+0307} ;dot ȧ
 <^>!,::Send {U+0327} ;hook a̧
 <^>!+,::Send {U+0328} ;ogonek ą
@@ -27,18 +24,9 @@ StringCaseSense, On
 <^>!1:: Send {U+030D} ;vertical line a̍
 <^>!+1:: Send {U+030E} ;double vertical line a̎
 <^>!+o::Send {U+030A} ;ring å
-<^>!+x::Send {U+033D} ;x above (small) a̽
 <^>!+z::Send {U+035B} ;zigzag a͛
-<^>!+8::Send {U+0361} ;double breve a͡a
-<^>!+9::Send {U+035C} ;double breve below ͜aa
-
-; Blanks
-<^>!Space::Send {U+200C} ; ZWNJ
-<^>!+Space:: Send {U+2800} ; blank braille
-<^>!+Enter:: Send {U+200D} ; ZWJ
 
 ; Workarounds for overridden keys
-+Space::Send {U+005F} ; _
 <^>!§::Send {U+007C} ; |
 <^>!+¨::Send {U+005E} ; ^
 <^>!+7::Send {U+007E} ; ~
