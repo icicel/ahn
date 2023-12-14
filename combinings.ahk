@@ -1,0 +1,113 @@
+﻿SendMode Input
+StringCaseSense, On
+#InstallKeybdHook
+
+; Keep in mind that the script is based on 
+;  the Swedish keyboard layout.
+
+¨::Send {U+0308} ;diaeresis ä
++¨::Send {U+0302} ;circumflex â
+<^>!¨::Send {U+0303} ;tilde ã
+´::Send {U+0301} ;acute á
++´::Send {U+0300} ;grave à
+<^>!´::Send {U+030B} ;double acute a̋
+<^>!+´::Send {U+030F} ;double grave ȁ
+<^>!'::Send {U+0309} ;hook ả
+<^>!+'::Send {U+031B} ;horn a̛
++-::Send {U+0332} ;underline a̲
+<^>!-::Send {U+0304} ;macron ā
+<^>!+-:: Send {U+0331} ;macron below a̱
+<^>!+.::Send {U+0307} ;dot ȧ
+<^>!,::Send {U+0327} ;hook a̧
+<^>!+,::Send {U+0328} ;ogonek ą
+<^>!<::Send {U+030C} ;caron ǎ
+<^>!+<::Send {U+0306} ;breve ă
+<^>!1:: Send {U+030D} ;vertical line a̍
+<^>!+1:: Send {U+030E} ;double vertical line a̎
+<^>!+o::Send {U+030A} ;ring å
+<^>!+x::Send {U+033D} ;x above (small) a̽
+<^>!+z::Send {U+035B} ;zigzag a͛
+<^>!+8::Send {U+0361} ;double breve a͡a
+<^>!+9::Send {U+035C} ;double breve below ͜aa
+
++Space::Send {U+005F} ; _
+<^>!Space::Send {U+200C} ; ZWNJ
+<^>!+Space:: Send {U+2800} ; blank braille
+<^>!+Enter:: Send {U+200D} ; ZWJ
+<^>!§::Send {U+007C} ; |
+<^>!+¨::Send {U+005E} ; ^
+<^>!+7::Send {U+007E} ; ~
+
+<^>!ä::Send {U+00E6} ; æ
+<^>!+ä::Send {U+00C6} ; Æ
+<^>!ö::Send {U+00F8} ; ø
+<^>!+ö::Send {U+00D8} ; Ø
+<^>!t::Send {U+00FE} ; þ
+<^>!+t::Send {U+00DE} ; Þ
+<^>!d::Send {U+00F0} ; ð
+<^>!+d::Send {U+00D0} ; Ð
+<^>!b::Send {U+00DF} ; ß
+
+; <^>!::Send {U+} ; 
+
+; k capitalizes and l does the opposite
+; if shift is not pressed, the character right of the cursor is automatically selected
+<^>!k::
+Send +{Right}
+<^>!+k::
+Send ^c
+Sleep, 50
+StringUpper, clipboard, clipboard
+clipboard := StrReplace(clipboard, "ı", "I")
+clipboard := StrReplace(clipboard, "ȷ", "J")
+Send ^v
+return
+<^>!l::
+Send +{Right}
+<^>!+l::
+Send ^c
+Sleep, 50
+clipboard := StrReplace(clipboard, "I", "ı")
+clipboard := StrReplace(clipboard, "J", "ȷ")
+StringLower, clipboard, clipboard
+Send ^v
+return
+
+; replace periods with middle dots, convert to title case
+<^>!.::
+Send ^c
+Sleep, 50
+clipboard := StrReplace(clipboard, ".", "·")
+Send ^v
+return
+<^>!m::
+Send ^c
+Sleep, 50
+StringUpper, clipboard, clipboard, T
+clipboard := StrReplace(clipboard, " ı", " I")
+Send ^v
+return
+
+; replace I with J, U with W and the opposite
+<^>!j::
+Send +{Right}
+Send ^c
+Sleep, 50
+clipboard := StrReplace(clipboard, "ı", "ȷ")
+clipboard := StrReplace(clipboard, "i", "j")
+clipboard := StrReplace(clipboard, "I", "J")
+clipboard := StrReplace(clipboard, "u", "w")
+clipboard := StrReplace(clipboard, "U", "W")
+Send ^v
+return
+<^>!i::
+Send +{Right}
+Send ^c
+Sleep, 50
+clipboard := StrReplace(clipboard, "ȷ", "ı")
+clipboard := StrReplace(clipboard, "j", "i")
+clipboard := StrReplace(clipboard, "J", "I")
+clipboard := StrReplace(clipboard, "w", "u")
+clipboard := StrReplace(clipboard, "W", "U")
+Send ^v
+return

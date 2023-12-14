@@ -5,6 +5,11 @@ Āĥn is a cypher from English.
 It is also a separate language.
 At least, it kind of looks like one.
 
+This repo contains the source RegEx to the LingoJam translator that Āĥn was born out of.
+It also contains the AHK script I use to edit Āĥn text.
+
+[Link to the translator](https://lingojam.com/TexttoA%CC%84h%CC%82n)
+
 # GRAMMAR
 
 ## CONVERSIONS
@@ -79,7 +84,7 @@ When translating these, the article should be dropped.
 - The BBC's shows - BBCo oŝpo
 
 Regular proper nouns ignore this rule.
-- The Addams family - Iś Addams m̈r̀ū
+- The Addams family - Iś Addams m̈yr̀ū
 
 ### Name phrases
 
