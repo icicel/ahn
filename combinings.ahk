@@ -2,9 +2,11 @@
 StringCaseSense, On
 #InstallKeybdHook
 
-; Keep in mind that the script is based on 
-;  the Swedish keyboard layout.
+; Keep in mind that the script is based on the Swedish keyboard layout.
+; +    : Shift
+; <^>! : AltGr
 
+; Various combining characters
 ¨::Send {U+0308} ;diaeresis ä
 +¨::Send {U+0302} ;circumflex â
 <^>!¨::Send {U+0303} ;tilde ã
@@ -30,14 +32,18 @@ StringCaseSense, On
 <^>!+8::Send {U+0361} ;double breve a͡a
 <^>!+9::Send {U+035C} ;double breve below ͜aa
 
-+Space::Send {U+005F} ; _
+; Blanks
 <^>!Space::Send {U+200C} ; ZWNJ
 <^>!+Space:: Send {U+2800} ; blank braille
 <^>!+Enter:: Send {U+200D} ; ZWJ
+
+; Workarounds for overridden keys
++Space::Send {U+005F} ; _
 <^>!§::Send {U+007C} ; |
 <^>!+¨::Send {U+005E} ; ^
 <^>!+7::Send {U+007E} ; ~
 
+; Non-Swedish characters
 <^>!ä::Send {U+00E6} ; æ
 <^>!+ä::Send {U+00C6} ; Æ
 <^>!ö::Send {U+00F8} ; ø
@@ -48,10 +54,8 @@ StringCaseSense, On
 <^>!+d::Send {U+00D0} ; Ð
 <^>!b::Send {U+00DF} ; ß
 
-; <^>!::Send {U+} ; 
-
-; k capitalizes and l does the opposite
-; if shift is not pressed, the character right of the cursor is automatically selected
+; Capitalizes the selected text
+; If shift is not pressed, the character right of the cursor is automatically selected
 <^>!k::
 Send +{Right}
 <^>!+k::
@@ -62,6 +66,8 @@ clipboard := StrReplace(clipboard, "ı", "I")
 clipboard := StrReplace(clipboard, "ȷ", "J")
 Send ^v
 return
+
+; As above, but converts to lowercase
 <^>!l::
 Send +{Right}
 <^>!+l::
@@ -73,13 +79,15 @@ StringLower, clipboard, clipboard
 Send ^v
 return
 
-; replace periods with middle dots, convert to title case
+; Replace periods with middle dots
 <^>!.::
 Send ^c
 Sleep, 50
 clipboard := StrReplace(clipboard, ".", "·")
 Send ^v
 return
+
+; Convert selected text to title case
 <^>!m::
 Send ^c
 Sleep, 50
@@ -88,7 +96,7 @@ clipboard := StrReplace(clipboard, " ı", " I")
 Send ^v
 return
 
-; replace I with J, U with W and the opposite
+; Replace I with J and U with W
 <^>!j::
 Send +{Right}
 Send ^c
@@ -100,6 +108,8 @@ clipboard := StrReplace(clipboard, "u", "w")
 clipboard := StrReplace(clipboard, "U", "W")
 Send ^v
 return
+
+; As above, but the other way around
 <^>!i::
 Send +{Right}
 Send ^c
