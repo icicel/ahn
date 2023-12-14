@@ -23,13 +23,13 @@ StringCaseSense, On
 <^>!+<::Send {U+0306} ;breve ă
 <^>!1:: Send {U+030D} ;vertical line a̍
 <^>!+1:: Send {U+030E} ;double vertical line a̎
-<^>!+o::Send {U+030A} ;ring å
-<^>!+z::Send {U+035B} ;zigzag a͛
+<^>!+0::Send {U+030A} ;ring å
+<^>!+7::Send {U+035B} ;zigzag a͛
 
 ; Workarounds for overridden keys
 <^>!§::Send {U+007C} ; |
 <^>!+¨::Send {U+005E} ; ^
-<^>!+7::Send {U+007E} ; ~
+<^>!+s::Send {U+007E} ; ~
 
 ; Non-Swedish characters
 <^>!ä::Send {U+00E6} ; æ
@@ -40,7 +40,7 @@ StringCaseSense, On
 <^>!+t::Send {U+00DE} ; Þ
 <^>!d::Send {U+00F0} ; ð
 <^>!+d::Send {U+00D0} ; Ð
-<^>!b::Send {U+00DF} ; ß
+<^>!s::Send {U+00DF} ; ß
 
 ; Capitalizes the selected text
 ; If shift is not pressed, the character right of the cursor is automatically selected
@@ -81,6 +81,7 @@ Send ^c
 Sleep, 50
 StringUpper, clipboard, clipboard, T
 clipboard := StrReplace(clipboard, " ı", " I")
+clipboard := StrReplace(clipboard, " ȷ", " J")
 Send ^v
 return
 
