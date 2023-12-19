@@ -76,15 +76,21 @@ For the sake of legibility, the ending vowel should not be replaced in short nam
 - Xi's bargain - Xio g̈ed̈̀a
 - The Laos' attack - Iś̈ Laoao'ı̧̈th
 
-### Article omission
+### Dropping the article
 
-Some proper nouns, termed "weak proper names", are used along with the definite article, 'the'.
-When translating these, the article should be dropped.
-- Life in the Philippines - Ùḿ̀'a Philippina
-- The BBC's shows - BBCo oŝpo
+Some proper nouns are often used along with the definite article, 'the' (these are also called "weak proper names").
+When translating them, the article should be dropped if present.
+- Waters of the Nile - P̈ȷ́eô'm Nile
+- Blue Nile waters - Gṹ Nile p̈ȷ́eo
+- The Nile's waters - Nilo p̈ȷ́eo
 
-Regular proper nouns ignore this rule.
+Regular proper nouns are unaffected.
 - The Addams family - Iś Addams m̈yr̀ū
+
+Any potential plural suffix is not converted to '-a', assuming the noun is referred to with its article.
+Otherwise, conversion takes place as usual.
+- Life in the Philippines - Ùḿ̀'a Philippines
+- Too many Philippines - Î̂ r̈ā Philippina
 
 ### Name phrases
 
@@ -132,7 +138,7 @@ Other words derived from proper nouns are translated as common words.
 Titles are treated like proper nouns.
 - Let's read Pride and Prejudice today - Úȷ͛o é̈n Pride and Prejudice ı̂n̈̄
 
-Note that a title that begins with 'The' is not considered a weak proper name, and the 'The' should not be dropped.
+Note that if a title begins with 'The', it should not be dropped as it is part of the proper noun itself.
 - A review of The Shining -' É̈l̀́p̂'m The Shining
 
 ## ACRONYMS
