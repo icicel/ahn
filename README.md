@@ -54,27 +54,26 @@ Non-names are translated as normally.
 ### Noun suffixes
 
 The main two noun suffixes in English are the possessive suffix (-'s) and the plural suffix (-s).
-When used on proper nouns, they are translated into '-o' and '-a' respectively.
-- Adam's steak - Adamo oı́̈h
-- Several Volkswagens - Óĺëw Volkswagena
-- The Johnsons' opinions - Iś̂ Johnsonao'k̀à̂̍o
+When used on proper nouns, they are translated into '-a' and '-o' respectively.
+- Adam's steak - Adama oı́̈h
+- Several Volkswagens - Óĺëw Volkswageno
+- The Johnsons' opinions - Iś̂ Johnsonoa'k̀à̂̍o
 
 The contraction of 'has' also counts as a possessive suffix.
-- Evelyn's gone away - Evelyno d̂á̈'p̈̄
+- Evelyn's gone away - Evelyna d̂á̈'p̈̄
 
 Should the proper noun end in a vowel, that vowel is replaced with the new suffix vowel(s).
 If it ends in several vowels, they're all replaced.
-- My collection of Ferraris - R̄ t̂ú̧tȷ̀̂â'm Ferrara
-- Da Vinci's Mona Lisa - Da Vinco Mona Lisa
-- Many Colombias' worth of gold - R̈ā Colombao p̂eıŝ'm d̂un
+- My collection of Ferraris - R̄ t̂ú̧tȷ̀̂â'm Ferraro
+- Da Vinci's Mona Lisa - Da Vinca Mona Lisa
+- Many Colombias' worth of gold - R̈ā Colomboa p̂eıŝ'm d̂un
 
 Sometimes the proper noun and its suffixed form are identical.
-To distinguish in these cases, the vowel is dropped.
-- It's Blorbo's fault - 'J͛̀o Blorb m̈̃wı
+To distinguish in these cases, the alternative suffix '-e' is used instead.
+- It's Canada's fault - 'J͛̀o Canade m̈̃wı
 
 For the sake of legibility, the ending vowel should not be replaced in short names.
-- Xi's bargain - Xio g̈ed̈̀a
-- The Laos' attack - Iś̈ Laoao'ı̧̈th
+- Xi's bargain - Xia g̈ed̈̀a
 
 ### Dropping the article
 
@@ -82,15 +81,15 @@ Some proper nouns are often used along with the definite article, 'the' (these a
 When translating them, the article should be dropped if present.
 - Waters of the Nile - P̈ȷ́eô'm Nile
 - Blue Nile waters - Gṹ Nile p̈ȷ́eo
-- The Nile's waters - Nilo p̈ȷ́eo
+- The Nile's waters - Nila p̈ȷ́eo
 
 Regular proper nouns are unaffected.
 - The Addams family - Iś Addams m̈yr̀ū
 
-Any potential plural suffix is not converted to '-a', assuming the noun is referred to with its article.
+Any potential plural suffix is not converted to '-o', assuming the noun is referred to with its article.
 Otherwise, conversion takes place as usual.
 - Life in the Philippines - Ùḿ̀'a Philippines
-- Too many Philippines - Î̂ r̈ā Philippina
+- Too many Philippines - Î̂ r̈ā Philippino
 
 ### Name phrases
 
@@ -110,7 +109,7 @@ These are termed "proper modifiers" and are sometimes shortened.
 The modifier is translated, stripped of vowels, and prepended to the following part of the name as if it were a prefix.
 - South Africa - Oisafrica
 - Papua New Guinea - Papua Apguinea
-- Upper Himalayas - Kehimalay
+- Upper Himalayas - Kehimalaye
 
 Consecutive vowels are handled by inserting apostrophes, much like 'la' before words starting with vowels in French.
 - Upper Egypt - K'egypt
@@ -120,15 +119,15 @@ In rare cases, nouns are also treated as modifiers.
 
 ### Proper adjectives
 
-Proper adjectives, such as demonyms, are usually derived from a proper noun, and are translated by suffixing '-e' to that noun.
+Proper adjectives, such as demonyms, are usually derived from a proper noun, and are translated by suffixing '-i' to that noun.
 The suffix is applied in the same way as noun suffixes above.
-- Jovian moons - Jupitere r̂̂ao
-- The French revolution - Iś Franc él̂ũȷ̀̂a
-- West Virginians' revenge - Poivirgineao éĺad́
-- Freudian philosophy - Freude ks̀ŵôks̄
+- Jovian moons - Jupiteri r̂̂ao
+- The French revolution - Iś Franci él̂ũȷ̀̂a
+- Not enough Swedes - Âı́'ẫds Swedenio
+- Freudian philosophy - Freudi ks̀ŵôks̄
 
 If the base noun is unclear or too different, the word itself can be used as a proper noun.
-- Basque country - Basque t̂̃aȷē
+- Gagauz language - Gagauz ẅad̃̈̍́
 
 Other words derived from proper nouns are translated as common words.
 - The spread of Buddhism - Iś oké̈n̂'m g̃yņs̀or
@@ -146,9 +145,9 @@ Note that if a title begins with 'The', it should not be dropped as it is part o
 Acronyms are treated mostly like proper nouns.
 However, noun suffixes do not replace the ending vowels and are just appended.
 - Born in the USA - Ĝeà'a USA
-- Their CPUs came later - Iś̀e CPUa ẗyŕ üȷ́e
+- Their CPUs came later - Iś̀e CPUo ẗyŕ üȷ́e
 
 If there would be consecutive letters as a result of this, the final vowel is removed anyway.
-- NATO's defense - NATo ńyḿaó
+- NASA's mission - NASa r̀ò̧̂a
 
 # Explanation of the RegEx
