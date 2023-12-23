@@ -32,7 +32,24 @@ It also contains the AHK script I use to edit Āĥn text.
 
 ### Y-insertion
 
-### J and W-insertion
+### I/U conversion
+
+To further aid in pronouncability, Is and Us in large groups of vowels are "converted" to their respective consonant "forms", J and W.
+The standard method for doing this is as follows:
+
+1. Convert all Us that are surrounded by vowels
+2. Convert all Is that are surrounded by vowels
+3. Convert all Us that are in front of another vowel
+4. Convert all Is that are in front of another vowel
+5. Convert all Us that are after another vowel
+
+The converted Js are dotless, like the Is.
+
+- beast - ǵ̈oı
+- beasts - ǵ̈oȷo
+- telltale - ı́w̧ȷ̈ú
+
+I and J are treated as the same letter, as are U and W.
 
 ## SYMBOLS
 
@@ -40,8 +57,8 @@ It also contains the AHK script I use to edit Āĥn text.
 
 ## NAMES AND PROPER WORDS
 
-Names, or proper nouns, are written as-is.
-The entire name is treated as a symbol with respect to vowel placement, and allow for carryback kern.
+Names, or proper nouns, are written as-is, without any standard additional formatting such as I/U conversion.
+The entire name is treated as a symbol with respect to vowel placement, and allows for carryback kern.
 - My name is Adam - R̄ äŕ̀'o Adam
 - The Danube of the east - Iś̂ Danube'm ıś́̈"oı
 - Sweden is a good place - Sweden'ö̀' d̂̂yn küt́
@@ -106,7 +123,7 @@ Common exceptions are cases where the name in question also has a commonly used 
 
 Many name phrases contain certain adjectives or prepositions in them that describe the location or context of the head noun of the phrase.
 These are termed "proper modifiers" and are sometimes shortened.
-The modifier is translated, stripped of vowels, and prepended to the following part of the name as if it were a prefix.
+The modifier is translated, stripped of vowels and formatting, and prepended to the following part of the name as if it were a prefix.
 - South Africa - Oisafrica
 - Papua New Guinea - Papua Apguinea
 - Upper Himalayas - Kehimalaye
@@ -116,6 +133,7 @@ Consecutive vowels are handled by inserting apostrophes, much like 'la' before w
 
 In rare cases, nouns are also treated as modifiers.
 - Saint George - Oaigeorge
+- Mount Everest - Rajeverest
 
 ### Proper adjectives
 
@@ -123,7 +141,7 @@ Proper adjectives, such as demonyms, are usually derived from a proper noun, and
 The suffix is applied in the same way as noun suffixes above.
 - Jovian moons - Jupiteri r̂̂ao
 - The French revolution - Iś Franci él̂ũȷ̀̂a
-- Not enough Swedes - Âı́'ẫds Swedenio
+- Not enough Swedes - Âı́'ẫds Swedenjo
 - Freudian philosophy - Freudi ks̀ŵôks̄
 
 If the base noun is unclear or too different, the word itself can be used as a proper noun.
