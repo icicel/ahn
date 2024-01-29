@@ -70,7 +70,6 @@ The converted Js are dotless, like the Is.
 Names, or proper nouns, are written as-is, without any standard additional formatting such as I/U conversion.
 The entire name is treated as a symbol with respect to vowel placement, and allows for carryback kern.
 - My name is Adam - R̄ äŕ̀'o Adam
-- The Danube of the east - Iś̂ Danube'm ıś́̈"oı
 - Sweden is a good place - Sweden'ö̀' d̂̂yn küt́
 
 There are many proper nouns that are not names (noting that the definition of "name" is loose and can vary according to the translator's wishes).
@@ -110,8 +109,9 @@ When translating them, the article should be dropped if present.
 - Blue Nile waters - Gṹ Nile p̈ȷ́eo
 - The Nile's waters - Nila p̈ȷ́eo
 
-Regular proper nouns are unaffected.
+Regular proper nouns are unaffected, as are weak proper nouns in noun phrases.
 - The Addams family - Iś Addams m̈yr̀ū
+- The Nile of the east - Iś̂ Nile'm ıś́̈"oı
 
 Any potential plural suffix is not converted to '-o', assuming the noun is referred to with its article.
 Otherwise, conversion takes place as usual.
@@ -133,10 +133,12 @@ Common exceptions are cases where the name in question also has a commonly used 
 
 Many name phrases contain certain adjectives or prepositions in them that describe the location or context of the head noun of the phrase.
 These are termed "proper modifiers" and are sometimes shortened.
-The modifier is translated, stripped of vowels and formatting, and prepended to the following part of the name as if it were a prefix.
-- South Africa - Oisafrica
+The modifier is translated, stripped of diacritics, and prepended to the following part of the name as if it were a prefix.
 - Papua New Guinea - Papua Apguinea
 - Upper Himalayas - Kehimalaye
+
+Dotless Is and Js are re-dotted.
+- South Africa - Oisafrica
 
 Consecutive vowels are handled by inserting apostrophes, much like 'la' before words starting with vowels in French.
 - Upper Egypt - K'egypt
@@ -151,8 +153,10 @@ Proper adjectives, such as demonyms, are usually derived from a proper noun, and
 The suffix is applied in the same way as noun suffixes above.
 - Jovian moons - Jupiteri r̂̂ao
 - The French revolution - Iś Franci él̂ũȷ̀̂a
-- Not enough Swedes - Âı́'ẫds Swedenjo
 - Freudian philosophy - Freudi ks̀ŵôks̄
+
+The suffix can be converted to '-j' according to normal rules.
+- Not enough Swedes - Âı́'ẫds Swedenjo
 
 If the base noun is unclear or too different, the word itself can be used as a proper noun.
 - Gagauz language - Gagauz ẅad̃̈̍́
