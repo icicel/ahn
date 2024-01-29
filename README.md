@@ -10,15 +10,15 @@ It also contains the AHK script I use to edit Āĥn text.
 
 [Link to the translator](https://lingojam.com/TexttoA%CC%84h%CC%82n)
 
-# GRAMMAR
+# Grammar
 
 ## CONVERSIONS
-
-(todo all of these)
 
 ### Consonants
 
 ### Vowels
+
+### Letters with diacritics
 
 ## VOWEL CARRYBACK
 
@@ -26,17 +26,24 @@ It also contains the AHK script I use to edit Āĥn text.
 
 ### Carryback kern
 
+## DUPLETS
+
+### Separated duplets
+
+### Combining duplet marks
+
+### Inverted cedilla fix
+
 ## ADDITIONAL FORMATTING
 
-### Dots on the I
+### Dotless I
 
-### Y-insertion
+### Y insertion
 
 ### I/U conversion
 
 To further aid in pronouncability, Is and Us in large groups of vowels are "converted" to their respective consonant "forms", J and W.
 The standard method for doing this is as follows:
-
 1. Convert all Us that are surrounded by vowels
 2. Convert all Is that are surrounded by vowels
 3. Convert all Us that are in front of another vowel
@@ -44,14 +51,17 @@ The standard method for doing this is as follows:
 5. Convert all Us that are after another vowel
 
 The converted Js are dotless, like the Is.
-
 - beast - ǵ̈oı
 - beasts - ǵ̈oȷo
 - telltale - ı́w̧ȷ̈ú
 
-I and J are treated as the same letter, as are U and W.
+### The You sign
+
+## NUMBERS
 
 ## SYMBOLS
+
+### Brackets
 
 ## CAPITALIZATION
 
@@ -158,7 +168,11 @@ Titles are treated like proper nouns.
 Note that if a title begins with 'The', it should not be dropped as it is part of the proper noun itself.
 - A review of The Shining -' É̈l̀́p̂'m The Shining
 
-## ACRONYMS
+## ABBREVIATIONS
+
+### Proper abbreviations
+
+### Acronyms
 
 Acronyms are treated mostly like proper nouns.
 However, noun suffixes do not replace the ending vowels and are just appended.
