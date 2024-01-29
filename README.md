@@ -174,16 +174,28 @@ Note that if a title begins with 'The', it should not be dropped as it is part o
 
 ## ABBREVIATIONS
 
+Abbreviations and contractions are translated as usual, but any full stops are removed.
+Also, the Y insertion rules are ignored.
+- That's Mr. Anderson - Is̈ȷ͛o re Anderson
+- Only 5 km to Paris - 'Âw̄ 5 hr ı̂ Paris
+- Their PhDs came later - Iś̀e ksno ẗyŕ üȷ́e
+
 ### Proper abbreviations
 
-### Acronyms
-
-Acronyms are treated mostly like proper nouns.
-However, noun suffixes do not replace the ending vowels and are just appended.
+Abbreviations of proper nouns are not modified apart from removing the full stop if it's included.
+- James R. Smith - James R Smith
 - Born in the USA - Ĝeà'a USA
-- Their CPUs came later - Iś̀e CPUo ẗyŕ üȷ́e
 
-If there would be consecutive letters as a result of this, the final vowel is removed anyway.
+Additionally and specifically in the case of names, several abbrevations in a row are merged.
+- The works of J. R. R. Tolkien - Iś p̂ehô'm JRR Tolkien
+
+Abbreviated proper modifiers are unabbreviated and then handled as usual.
+- W. Jefferson - Poijefferson
+- Mt. Blanc - Raiblanc
+
+Noun suffixes don't replace the ending vowels and are just appended.
+If there would be duplets as a result of this, the final vowel is replaced anyway.
+- SÄPO's mission - SÄPOa r̀ò̧̂a
 - NASA's mission - NASa r̀ò̧̂a
 
 # Explanation of the RegEx
