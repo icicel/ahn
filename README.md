@@ -26,7 +26,41 @@ Keep in mind that due to the complicated contexts in which they apply, certain r
 
 ### Vowels
 
-## VOWEL CARRYBACK
+## CARRYBACKS
+
+When using the above substitutions naïvely, one quickly runs into problems when faced with words that start with a vowel.
+The problem is that combining characters are designed to "latch on" to regular letters, not whitespace. A vowel that isn't preceded by a consonant is left hanging, literally.
+- super agile - õḱe ̈d̀ú (looks weird)
+
+A simple solution is to skip the whitespace, letting the combining character latch on the first available letter to the left.
+However, this can lead to confusion, as the character is now part of another word.
+- super agile - õḱë d̀ú (reads as "supera gile")
+
+This is where carrybacks come in.
+A carryback is, at its simplest, a substitution for a vowel at the start of a word, that tells us that the last vowel of the previous word belongs there instead - the carryback "carries the vowel back" from the previous word to the current word.
+The regular "single carryback" is represented with an apostrophe.
+- super agile - õḱë 'd̀ú (no confusion!)
+
+### Multiple carrybacks
+
+Of course, some words start with more than one vowel.
+In those cases, you could just use several carrybacks in a row.
+- super easy - õḱé̈ ''ō
+- super young - õḱē̂̃ '''ad
+
+This looks fine, but for convenience, they are combined into double and triple carrybacks, represented by quote marks and asterisks.
+- super easy - õḱé̈ "ō
+- super young - õḱē̂̃ *ad
+
+For words that start with more than three vowels, you simply keep going with the already existing carrybacks.
+A quadruple carryback is just a triple carryback and a single carryback combined, for example.
+A sextuple carryback is two triple carrybacks.
+- super eeeasy - õḱé́́̈ *'ō
+- super eeeeasy - õḱé́́́̈ *"ō
+- super eeeeeasy - õḱé́́́́̈ **ō
+
+Eventually, things could get messy. Use vowels responsibly!
+- super eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeasy - õḱé́́́́́́́́́́́́́́́́́́́́́́́́́́́́́́́́́́́́̈ ************"ō
 
 ### Paragraph-initially
 
