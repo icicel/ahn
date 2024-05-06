@@ -25,7 +25,7 @@ Update 3: Now doesn't use Y at all, leading vowels are instead looped around to 
 Update 4: Now translates the word "you" and related words (your, you're, yourself etc.) into "¤" (¤e, ¤'é, ¤eóum). In my opinion, this looks better than "̄̂̃*", especially for such a common word.  
 Update 5: Now uses dotless ı instead of i, to avoid confusion with the translation of "tä"  
 Update 6: Now automatically converts I to J and U to W in some cases to aid in legibility  
-Update 7: Now places leading vowels on the first letter instead of on the last letter. Also, RegEx logic can now handle infinite complexity
+Update 7: Now places leading vowels on the first letter instead of on the last letter. Also, RegEx logic can now handle infinite complexity  
 Update 8: Can now simulate new paragraphs with "<>"
 
 
