@@ -26,23 +26,15 @@ Keep in mind that due to the complicated contexts in which they apply, certain r
 
 ### Vowels
 
-### Letters with diacritics
-
 ## VOWEL CARRYBACK
 
 ### Paragraph-initially
 
+### Without consonants
+
+## FORMATTING
+
 ### Carryback kern
-
-## DUPLETS
-
-### Separated duplets
-
-### Combining duplet marks
-
-### Inverted cedilla fix
-
-## ADDITIONAL FORMATTING
 
 ### Dotless I
 
@@ -65,11 +57,21 @@ The converted Js are dotless, like the Is.
 
 ### The You sign
 
+### Letters with diacritics
+
+## DUPLETS
+
+### Separated duplets
+
+### Combining duplet marks
+
+### Inverted cedilla fix
+
 ## NUMBERS
 
 ## SYMBOLS
 
-### Brackets
+### Quote marks
 
 ## CAPITALIZATION
 
