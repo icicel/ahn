@@ -65,9 +65,15 @@ The converted Js are dotless, like the Is.
 
 ## CAPITALIZATION
 
+The only allowed capitalization apart from in names or units (see relevant sections) is at the very first letter of a sentence.
+Other than that, capitalization is ignored and the translated word is written in all lowercase.
+- WHAT do you MEAN!? - Ps̈ı n̂ ¤ ŕ̈a!?
+- oOPS I PRESSED CAPS LOCK - "K̂̂ò' kéó̧n ẗyko ûth
+- capitalization is still optional - ẗyk̀ȷ̈ùb̈ȷ̀̂à'o oȷ̀û̧'kȷ̀̂äw
+
 ## NAMES AND PROPER WORDS
 
-Names, or proper nouns, are written as-is, without any standard additional formatting such as I/U conversion.
+Names, or proper nouns, are written as-is, without any ignored capitalization or other standard formatting such as I/U conversion.
 The entire name is treated as a symbol with respect to vowel placement, and allows for carryback kern.
 - My name is Adam - R̄ äŕ̀'o Adam
 - Sweden is a good place - Sweden'ö̀' d̂̂yn küt́
