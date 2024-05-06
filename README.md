@@ -177,8 +177,9 @@ Note that if a title begins with 'The', it should not be dropped as it is part o
 Abbreviations and contractions are translated as usual, but any full stops are removed.
 Also, the Y insertion rules are ignored.
 - That's Mr. Anderson - Is̈ȷ͛o re Anderson
-- Only 5 km to Paris - 'Âw̄ 5 hr ı̂ Paris
-- Their PhDs came later - Iś̀e ksno ẗyŕ üȷ́e
+- This USB is mine - Is̀õ'og̀'o r̀á
+- He has multiple Ph.D.s - Ś s̈ö' ksno
+- I'm a SaaS-based fintech sales analyst - "R̈̀͛' ö̈̍-g̈ón m̀aı́ts öẃö'äw̄oı
 
 ### Proper abbreviations
 
@@ -197,5 +198,14 @@ Noun suffixes don't replace the ending vowels and are just appended.
 If there would be duplets as a result of this, the final vowel is replaced anyway.
 - SÄPO's mission - SÄPOa r̀ò̧̂a
 - NASA's mission - NASa r̀ò̧̂a
+
+### Units of measurement
+
+When abbreviated, units of measurement count as proper nouns and are translated as such.
+Unabbreviated units don't count.
+- Only 5 km to Paris - 'Âw̄ 5 km ı̂ Paris
+- Only 5 kilometers to Paris - 'Âw̄ 5 h̀ûŕȷ́eo ı̂ Paris
+- 3V battery - 3V g̈ȷ̧́ē
+- 3 volt battery - 3 l̂wı g̈ȷ̧́ē
 
 # Explanation of the RegEx
