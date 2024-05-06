@@ -19,6 +19,8 @@ IMPORTANT: There's a bug with Lingojam where all periods (.) behave somewhat str
 
 This is a dumb code where vowels become diacritics and consonants are shuffled around. Works with the English letters A-Z and also the letters Ä Ö Ü ß Å É. Doesn't handle capitalization very well, but that's an engine bug and won't be fixed.
 
+Check out the [GitHub repo](https://github.com/icicel/ahn) for a complete substitution table and grammar, and the source RegEx.
+
 Update: Now uses Y in place of W and apostrophes in place of dashes  
 Update 2: Now uses quote marks and asterisks instead of multiple apostrophes in a row  
 Update 3: Now doesn't use Y at all, leading vowels are instead looped around to the final letter  
