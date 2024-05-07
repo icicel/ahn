@@ -41,6 +41,18 @@ A carryback is, at its simplest, a substitution for a vowel at the start of a wo
 The regular "single carryback" is represented with an apostrophe.
 - super agile - õḱë 'd̀ú (no confusion!)
 
+If there already are vowel characters on the relevant consonant, the carrybacked vowel sits on top.
+- very agile - ĺē̈ 'd̀ú
+
+### Paragraph-initially
+
+One problem with this method is that at the start of a paragraph, there is no consonant to the left *at all*  that the vowel can latch on to.
+In that case, you simply choose the first consonant to the right.
+- algae - 'üd̈́
+
+Carrybacked vowels are still put on top of any preexisting vowels, just like before.
+- icier - 't̀́̀e
+
 ### Multiple carrybacks
 
 Of course, some words start with more than one vowel.
@@ -59,12 +71,26 @@ A sextuple carryback is two triple carrybacks.
 - super eeeeasy - õḱé́́́̈ *"ō
 - super eeeeeasy - õḱé́́́́̈ **ō
 
-Eventually, things could get messy. Use vowels responsibly!
-- super eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeasy - õḱé́́́́́́́́́́́́́́́́́́́́́́́́́́́́́́́́́́́́̈ ************"ō
+### Edge cases
 
-### Paragraph-initially
+Words consisting of only vowels are simply converted to only carrybacks.
+- here I stand - śé̀ ' oȷ̈an
 
-### Without consonants
+If there are several carrybacks in a row, but separated by space, they are not merged and the spacing remains.
+The carrybacked vowels are, however, still stacked as if they were one carryback.
+- here I am - śé̀̈ ' 'r
+- but Y U angry - g̃ı̄̃̈ ' ' 'adē
+
+There are no limits on the amount of vowels that can be carrybacked.
+Eventually, things could get messy.
+Use vowels responsibly!
+- my yoyo IOU yeah - r̄̄̂̄̂̀̂̃̄́̈*' * *s
+- eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeasy - ************"ṓ́́́́́́́́́́́́́́́́́́́́́́́́́́́́́́́́́́́́̈
+
+When there are no consonants at all, utilize Y insertion and add a dummy Y for the vowels to latch on to.
+(More on this in the relevant section.)
+- aeiou - ÿ́̀̂̃*"
+- a e i o u - ÿ́̀̂̃' ' ' ' '
 
 ## FORMATTING
 
