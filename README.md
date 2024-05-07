@@ -26,6 +26,12 @@ Keep in mind that due to the complicated contexts in which they apply, certain r
 
 ### Vowels
 
+## SYMBOLS
+
+### Symbol substitutions
+
+### Units of measurement
+
 ## CARRYBACKS
 
 When using the above substitutions naïvely, one quickly runs into problems when faced with words that start with a vowel.
@@ -71,6 +77,16 @@ A sextuple carryback is two triple carrybacks.
 - super eeeeasy - õḱé́́́̈ *"ō
 - super eeeeeasy - õḱé́́́́̈ **ō
 
+### Carryback over symbols
+
+For the purposes of carrybacking, symbols count as space, and carrybacking skips over them.
+- no, yes - â̄́, "o
+- it's been 84 years - 'ı͛̀o ǵ́ā́̈ 84 *eo
+
+Vowels still count as being paragraph-initial even if there's symbols preceding them.
+- 2+2 is 4 - 2+2 'ò 4
+- (enclosed) - ('átûón)
+
 ### Edge cases
 
 Words consisting of only vowels are simply converted to only carrybacks.
@@ -84,7 +100,7 @@ The carrybacked vowels are, however, still stacked as if they were one carryback
 There are no limits on the amount of vowels that can be carrybacked.
 Eventually, things could get messy.
 Use vowels responsibly!
-- my yoyo IOU yeah - r̄̄̂̄̂̀̂̃̄́̈*' * *s
+- my yoyo, IOU, yeah - r̄̄̂̄̂̀̂̃̄́̈ *', *, *s
 - eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeasy - ************"ṓ́́́́́́́́́́́́́́́́́́́́́́́́́́́́́́́́́́́́̈
 
 When there are no consonants at all, utilize Y insertion and add a dummy Y for the vowels to latch on to.
@@ -127,15 +143,9 @@ The converted Js are dotless, like the Is.
 
 ### Inverted cedilla fix
 
-## NUMBERS
-
-## SYMBOLS
-
-### Quote marks
-
 ## CAPITALIZATION
 
-The only allowed capitalization apart from in names or units (see relevant sections) is at the very first letter of a sentence.
+The only allowed capitalization apart from in symbols is at the very first letter of a sentence.
 Other than that, capitalization is ignored and the translated word is written in all lowercase.
 - WHAT do you MEAN!? - Ps̈ı n̂ ¤ ŕ̈a!?
 - oOPS I PRESSED CAPS LOCK - "K̂̂ò' kéó̧n ẗyko ûth
@@ -143,8 +153,8 @@ Other than that, capitalization is ignored and the translated word is written in
 
 ## NAMES AND PROPER WORDS
 
-Names, or proper nouns, are written as-is, without any ignored capitalization or other standard formatting such as I/U conversion.
-The entire name is treated as a symbol with respect to vowel placement, and allows for carryback kern.
+Names, or proper nouns, are treated as symbols.
+That is, they are written as-is, without any standard formatting such as I/U conversion, carrybacking skips over them, and carrybacks can kern to them.
 - My name is Adam - R̄ äŕ̀'o Adam
 - Sweden is a good place - Sweden'ö̀' d̂̂yn küt́
 
