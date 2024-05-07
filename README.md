@@ -18,7 +18,6 @@ The complexity comes from the multiple, overly complicated formatting rules used
 Keep in mind that due to the complicated contexts in which they apply, certain rules cannot be applied automatically in the LingoJam translator (yet), and must be done manually (or not at all, if you're lazy). These are currently:
 - Y insertion
 - Proper word formatting (including titles and measurement units)
-- Capitalization (kinda? it's broken, at least)
 
 ## SUBSTITUTIONS
 
@@ -142,14 +141,6 @@ The converted Js are dotless, like the Is.
 ### Combining duplet marks
 
 ### Inverted cedilla fix
-
-## CAPITALIZATION
-
-The only allowed capitalization apart from in symbols is at the very first letter of a sentence.
-Other than that, capitalization is ignored and the translated word is written in all lowercase.
-- WHAT do you MEAN!? - Ps̈ı n̂ ¤ ŕ̈a!?
-- oOPS I PRESSED CAPS LOCK - "K̂̂ò' kéó̧n ẗyko ûth
-- capitalization is still optional - ẗyk̀ȷ̈ùb̈ȷ̀̂à'o oȷ̀û̧'kȷ̀̂äw
 
 ## NAMES AND PROPER WORDS
 
