@@ -99,12 +99,22 @@ A sextuple carryback is two triple carrybacks.
 - super eeeeasy - õḱé́́́̈*"ō
 - super eeeeeasy - õḱé́́́́̈**ō
 
+### Lonely carrybacks
+
+Words consisting of only vowels are translated to just a carryback.
+This is called a "lonely" carryback since it's not next to a letter by default.
+These always force kerning to happen if it can, even with symbols (but not with other carrybacks, of course).
+- here I stand - śé̀' oȷ̈an
+- look, a bird - û̂ḧ,' g̀en
+- me, & I - ŕ̀, &'
+
+When at the start of a paragraph, lonely carrybacks behave like normal carrybacks, since no kerning can happen.
+- a fool moon night - ' m̂̂̈u r̂̂a àdsı
+- ¡ay caramba! - ¡" ẗ̈̄ërg̈!
+
 ### Edge cases
 
-Words consisting of only vowels are simply converted to only carrybacks, which also means the entire word is kerned.
-- here I stand - śé̀' oȷ̈an
-
-If there are several carrybacks in a row, but separated by space, they are not merged and the spacing remains.
+If there are several carrybacks in a row, but separated by space, they are not merged and the spacing remains, even for lonely carrybacks.
 The carrybacked vowels are, however, still stacked as if they were one carryback.
 - here I am - śé̀̈' 'r
 - but Y U angry - g̃ı̄̃̈' ' 'adē
