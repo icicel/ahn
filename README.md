@@ -85,6 +85,7 @@ Any symbols before the first vowel still act as space, and are ignored according
 
 Of course, some words start with more than one vowel.
 In those cases, you could just use several carrybacks in a row.
+(The vowels are parsed in reading order, so the rightmost vowel will be at the top of the stack.)
 - super easy - õḱé̈''ō
 - super young - õḱē̂̃'''ad
 
@@ -98,6 +99,11 @@ A sextuple carryback is two triple carrybacks.
 - super eeeasy - õḱé́́̈*'ō
 - super eeeeasy - õḱé́́́̈*"ō
 - super eeeeeasy - õḱé́́́́̈**ō
+
+When having multiple carrybacks at the start of a paragraph, remember that vowels are parsed in reading order.
+In this example the E will be parsed before the A, and therefore the A sign is above the E sign in the resulting stack.
+Another way to think about it is that there's a "ghost letter" at the start of the paragraph, that vowels latch on to as usual, but the ghost letter then travels rightwards and places its vowel stack on the first available letter.
+- easier - "ò́́̈e
 
 ### Lonely carrybacks
 
