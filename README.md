@@ -128,7 +128,7 @@ The carrybacked vowels are, however, still stacked as if they were one carryback
 There are no limits on the amount of vowels that can be carrybacked.
 Eventually, things could get messy.
 Use vowels responsibly!
-- my eye yoyo, yeah - r̄́̄́̄̂̄̂̄́̈* *', *s
+- yo, IOU a yoyo eye error, yea - ",* ' *' * 'ȩ̂̍̄́̈̄̂̀̂̃̈̄̂̄̂́̄́́,\*
 - eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeasy - ************"ṓ́́́́́́́́́́́́́́́́́́́́́́́́́́́́́́́́́́́́̈ 
 
 When there are no consonants *at all*, utilize Y insertion and add a dummy Y for the vowels to latch on to.
