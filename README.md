@@ -72,8 +72,9 @@ At the start of a paragraph, there is no consonant to the left that the vowel ca
 In that case, you simply choose the first consonant to the right.
 - algae - 'üd̈́
 
-Carrybacked vowels are still put on top of any preexisting vowels, just like before.
+Carrybacked vowels are still put on top of any preexisting vowels, just like before, but in this case they are also put on top of any *normally* carrybacked vowels that are carried from the right.
 - icier - 't̀́̀e
+- icy er - 't̄́̀'e
 
 Any symbols before the first vowel still act as space, and are ignored accordingly except for kerning purposes.
 - (enclosed) - ('átûón)
