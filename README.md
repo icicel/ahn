@@ -49,6 +49,23 @@ The regular "single carryback" is represented with an apostrophe.
 If there already are vowel characters on the relevant consonant, the carrybacked vowel sits on top.
 - very agile - ĺē̈ 'd̀ú
 
+In practice, any whitespace between a carryback and its vowel is removed.
+This process is somewhat misleadingly called "kerning", and is done in order to increase text density and disguise the shorter words of Āĥn.
+- super agile - õḱë'd̀ú
+
+### Symbol interaction
+
+For the purposes of carrybacking, symbols don't count as letters and carrybacks can skip over them.
+- the 84-year-old - ıś̄́̈ 84-*ê-'un
+
+This also means that kerning is effectively cancelled if there is a symbol in the way.
+- "super" agile - «õḱë» 'd̀ú
+- no & yes - â̄́ & "o
+- murder is 100% illegal - r̃eńè'ò 100% 'ú̧d̈u
+
+A common exception is for numbers, which do allow the kerning to take place (assuming there's whitespace that can be kerned).
+- the 84 year old - ıś̄́̈ 84*ê'un
+
 ### Paragraph-initially
 
 One problem with this method is that at the start of a paragraph, there is no consonant to the left *at all*  that the vowel can latch on to.
@@ -58,48 +75,43 @@ In that case, you simply choose the first consonant to the right.
 Carrybacked vowels are still put on top of any preexisting vowels, just like before.
 - icier - 't̀́̀e
 
+Any symbols before the first vowel still act as space, and are ignored accordingly except for kerning purposes.
+- (enclosed) - ('átûón)
+- 👍 yes - 👍 "ṓ
+- 2+2 is 4 - 2+2'ò 4
+
 ### Multiple carrybacks
 
 Of course, some words start with more than one vowel.
 In those cases, you could just use several carrybacks in a row.
-- super easy - õḱé̈ ''ō
-- super young - õḱē̂̃ '''ad
+- super easy - õḱé̈''ō
+- super young - õḱē̂̃'''ad
 
 This looks fine, but for convenience, they are combined into double and triple carrybacks, represented by quote marks and asterisks.
-- super easy - õḱé̈ "ō
-- super young - õḱē̂̃ *ad
+- super easy - õḱé̈"ō
+- super young - õḱē̂̃*ad
 
 For words that start with more than three vowels, you simply keep going with the already existing carrybacks.
 A quadruple carryback is just a triple carryback and a single carryback combined, for example.
 A sextuple carryback is two triple carrybacks.
-- super eeeasy - õḱé́́̈ *'ō
-- super eeeeasy - õḱé́́́̈ *"ō
-- super eeeeeasy - õḱé́́́́̈ **ō
-
-### Carryback over symbols
-
-For the purposes of carrybacking, symbols count as space, and carrybacking skips over them.
-- no, yes - â̄́, "o
-- it's been 84 years - 'ı͛̀o ǵ́ā́̈ 84 *eo
-
-Vowels still count as being paragraph-initial even if there's symbols preceding them.
-- 2+2 is 4 - 2+2 'ò 4
-- (enclosed) - ('átûón)
+- super eeeasy - õḱé́́̈*'ō
+- super eeeeasy - õḱé́́́̈*"ō
+- super eeeeeasy - õḱé́́́́̈**ō
 
 ### Edge cases
 
-Words consisting of only vowels are simply converted to only carrybacks.
-- here I stand - śé̀ ' oȷ̈an
+Words consisting of only vowels are simply converted to only carrybacks, which also means the entire word is kerned.
+- here I stand - śé̀' oȷ̈an
 
 If there are several carrybacks in a row, but separated by space, they are not merged and the spacing remains.
 The carrybacked vowels are, however, still stacked as if they were one carryback.
-- here I am - śé̀̈ ' 'r
-- but Y U angry - g̃ı̄̃̈ ' ' 'adē
+- here I am - śé̀̈' 'r
+- but Y U angry - g̃ı̄̃̈' ' 'adē
 
 There are no limits on the amount of vowels that can be carrybacked.
 Eventually, things could get messy.
 Use vowels responsibly!
-- my yoyo, IOU, yeah - r̄̄̂̄̂̀̂̃̄́̈ *', *, *s
+- my yoyo, IOU, yeah - r̄̄̂̄̂̀̂̃̄́̈*', *, *s
 - eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeasy - ************"ṓ́́́́́́́́́́́́́́́́́́́́́́́́́́́́́́́́́́́́̈
 
 When there are no consonants at all, utilize Y insertion and add a dummy Y for the vowels to latch on to.
@@ -108,8 +120,6 @@ When there are no consonants at all, utilize Y insertion and add a dummy Y for t
 - a e i o u - ÿ́̀̂̃' ' ' ' '
 
 ## FORMATTING
-
-### Carryback kern
 
 ### Dotless I
 
