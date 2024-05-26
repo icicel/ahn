@@ -68,7 +68,7 @@ A common exception is for numbers, which do allow the kerning to take place (ass
 
 ### Paragraph-initially
 
-One problem with this method is that at the start of a paragraph, there is no consonant to the left *at all*  that the vowel can latch on to.
+At the start of a paragraph, there is no consonant to the left that the vowel can latch on to.
 In that case, you simply choose the first consonant to the right.
 - algae - 'üd̈́
 
@@ -111,13 +111,13 @@ The carrybacked vowels are, however, still stacked as if they were one carryback
 There are no limits on the amount of vowels that can be carrybacked.
 Eventually, things could get messy.
 Use vowels responsibly!
-- my yoyo, IOU, yeah - r̄̄̂̄̂̀̂̃̄́̈*', *, *s
-- eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeasy - ************"ṓ́́́́́́́́́́́́́́́́́́́́́́́́́́́́́́́́́́́́̈
+- my eye yoyo, yeah - r̄́̄́̄̂̄̂̄́̈* *', *s
+- eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeasy - ************"ṓ́́́́́́́́́́́́́́́́́́́́́́́́́́́́́́́́́́́́̈ 
 
-When there are no consonants at all, utilize Y insertion and add a dummy Y for the vowels to latch on to.
-(More on this in the relevant section.)
+When there are no consonants *at all*, utilize Y insertion and add a dummy Y for the vowels to latch on to.
+(More on Y insertion in the relevant section.)
 - aeiou - ÿ́̀̂̃*"
-- a e i o u - ÿ́̀̂̃' ' ' ' '
+- a.e.i.o.u. - ÿ́̀̂̃'.'.'.'.'.
 
 ## FORMATTING
 
