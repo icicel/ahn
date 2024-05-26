@@ -128,12 +128,12 @@ When there are no consonants *at all*, utilize Y insertion and add a dummy Y for
 ### I/U conversion
 
 To further aid in pronouncability, Is and Us in large groups of vowels are "converted" to their respective consonant "forms", J and W.
-The standard method for doing this is as follows:
-1. Convert all Us that are surrounded by vowels
-2. Convert all Is that are surrounded by vowels
-3. Convert all Us that are in front of another vowel
-4. Convert all Is that are in front of another vowel
-5. Convert all Us that are after another vowel
+The standard method for doing this is as follows (taking into account the changes of one step for the next step):
+1. Convert all Us that are surrounded by vowels to Ws
+2. Convert all Is that are surrounded by vowels to Js
+3. Convert all Us that are in front of another vowel to Ws
+4. Convert all Is that are in front of another vowel to Js
+5. Convert all Us that are after another vowel to Ws
 
 The converted Js are dotless, like the Is.
 - beast - ǵ̈oı
