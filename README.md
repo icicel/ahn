@@ -130,17 +130,39 @@ The converted Js are dotless, like the Is.
 - beasts - ǵ̈oȷo
 - telltale - ı́w̧ȷ̈ú
 
+### Duplets
+
+A "duplet" is when there are two consonants in a row.
+Depending on the consonant, the resulting translation could look quite strange.
+Therefore a shorthand is used, where the second consonant is converted to a duplet mark (a cedilla).
+- fuss - m̃o̧
+- apple - 'ķ̈ú
+- zucchini - b̃yţs̀à
+
+Notice that if the two consonants are separated by vowels, there will still be two *letters* in a row in the resulting translation, ignoring the diacritics.
+This is a "separated duplet", and in order to clarify where the surrounding vowels go, the duplet mark is moved above the letter.
+In practice, this is done by replacing it with a vertical line.
+- bearer - ǵ̈é̍
+- caucasian - ẗ̃̍̈ò̈a
+
+This system still works intuitively even when there are more than two letters in a row.
+- passes - k̈ó̧̍
+- institution - 'àoȷ̀̍̃̍̀̂a
+
+There are also symbols for the rare cases of double and triple separated duplet marks, similarly to carrybacks.
+These are the double vertical line and the vertical tilde respectively.
+- lollipop - û̎̀k̂̍
+- pizzazz - k̀yb̧̈̎
+- lulllull - ũ̾̃̎
+- hmmmmm - syŗ̾
+
+For some reason, putting a cedilla on the lowercase G automatically places it above it (ģ).
+For consistency's sake, an ogonek is used instead.
+- kibble - h̀yg̨ú
+
 ### The You sign
 
 ### Letters with diacritics
-
-## DUPLETS
-
-### Separated duplets
-
-### Combining duplet marks
-
-### Inverted cedilla fix
 
 ## NAMES AND PROPER WORDS
 
