@@ -1,7 +1,7 @@
 
 # ĀĤN
 
-Āĥn is a cypher from English.
+Āĥn is a cypher supporting English, Swedish or German text.
 It is also a separate language.
 At least, it kind of looks like one.
 
@@ -9,6 +9,11 @@ This repo contains the source RegEx to the LingoJam translator that Āĥn was 
 It also contains the AHK script I use to edit Āĥn text.
 
 [Link to the translator](https://lingojam.com/TexttoA%CC%84h%CC%82n)
+
+## Name
+
+"Āĥn" translates to "nykod", which is "newcode" in Swedish.
+It was a placeholder name that stuck.
 
 # Grammar (WIP)
 
