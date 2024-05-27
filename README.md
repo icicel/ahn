@@ -57,15 +57,16 @@ This process is somewhat misleadingly called "kerning", and is done in order to 
 ### Symbol interaction
 
 For the purposes of carrybacking, symbols don't count as letters and carrybacks can skip over them.
-- the 84-year-old - ıś̄́̈ 84-*ê-'un
+- for/ever - m̂é/'ĺe
+- pe$os - ḱ̂$'o
 
 This also means that kerning is effectively cancelled if there is a symbol in the way.
 - "super" agile - «õḱë» 'd̀ú
-- no & yes - â̄́ & "o
+- they & us - ıś̄̃ & 'o
 - murder is 100% illegal - r̃eńè'ò 100% 'ú̧d̈u
 
 A common exception is for numbers, which do allow the kerning to take place (assuming there's whitespace that can be kerned).
-- the 84 year old - ıś̄́̈ 84*ê'un
+- my 12 oranges - r̄̂ 12'ëad́o
 
 ### Paragraph-initially
 
