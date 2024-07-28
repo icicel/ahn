@@ -17,6 +17,9 @@ It was a placeholder name that stuck.
 
 # Grammar (WIP)
 
+DISCLAIMER: plenty of pseudo-linguistics nonsense and borrowed terms below.
+Beware!
+
 Āĥn is, at its core, a simple substitution cypher.
 The complexity comes from the multiple, overly complicated formatting rules used to make Āĥn text look, read (and even be pronounced!) more like an actual language, while still just being a cypher.
 
@@ -84,7 +87,7 @@ Carrybacked vowels are still put on top of any preexisting vowels, just like bef
 
 Any symbols before the first vowel still act as space, and are ignored accordingly except for kerning purposes.
 - (enclosed) - ('átûón)
-- 👍 yes - 👍 "ṓ
+- ← over here - ← 'ĺ̂e śé
 - 2+2 is 4 - 2+2'ò 4
 
 ### Multiple carrybacks
@@ -137,8 +140,8 @@ Use vowels responsibly!
 - yo, IOU a yoyo eye error, yea - ",* ' *' * 'ȩ̂̍̄́̈̄̂̀̂̃̈̄̂̄̂́̄́́,\*
 - eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeasy - ************"ṓ́́́́́́́́́́́́́́́́́́́́́́́́́́́́́́́́́́́́̈ 
 
-When there are no consonants *at all*, utilize Y insertion and add a dummy Y for the vowels to latch on to.
-(More on Y insertion in the relevant section.)
+When there are no consonants *at all*, add a dummy Y for the vowels to latch on to.
+It should be the first character of the paragraph.
 - aeiou - ÿ́̀̂̃*"
 - a.e.i.o.u. - ÿ́̀̂̃'.'.'.'.'.
 
@@ -344,7 +347,7 @@ If there would be duplets as a result of this, the final vowel is replaced anywa
 
 ### Units of measurement
 
-When abbreviated, units of measurement count as proper nouns and are translated as such.
+When abbreviated, units of measurement count as symbols and are translated as such.
 Unabbreviated units don't count.
 - Only 5 km to Paris - 'Âw̄ 5 km ı̂ Paris
 - Only 5 kilometers to Paris - 'Âw̄ 5 h̀ûŕȷ́eo ı̂ Paris
