@@ -193,7 +193,7 @@ For some reason, putting a cedilla on the lowercase G automatically places it ab
 For consistency's sake, an ogonek is used instead.
 - kibble - h̀yg̨ú
 
-### The You sign
+### Shorthand
 
 ### Letters with diacritics
 

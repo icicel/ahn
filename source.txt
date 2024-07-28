@@ -84,6 +84,7 @@ isakhammarlund@gmail.com
 /é/g
 /[̧̨́̀̋̏̈̂̃̉̄̇̊͛̌̍̎]/g
 /([^a-zåäöüéß]|^)you(r|rs|rself|rselves|re|ll|dve|d|ve|all|'r|'re|'ll|'d've|'d|'ve|s|se|ses|)(?=[^a-zåäöüéß']|'[^a-zåäöüéß]|$)/g
+/(?<=[^a-zåäöüéß]|^)the(?=[^a-zåäöüéß]|$)/g
 /å/g
 /ä/g
 /ö/g
@@ -232,6 +233,7 @@ isakhammarlund@gmail.com
 é
 
 $1¤$2
+e
 ̊
 ̇
 ̉
