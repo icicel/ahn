@@ -21,7 +21,6 @@ Āĥn is, at its core, a simple substitution cypher.
 The complexity comes from the multiple, overly complicated formatting rules used to make Āĥn text look, read (and even be pronounced!) more like an actual language, while still just being a cypher.
 
 Keep in mind that due to the complicated contexts in which they apply, certain rules cannot be applied automatically in the LingoJam translator (yet), and must be done manually (or not at all, if you're lazy). These are currently:
-- Y insertion
 - Proper word formatting (including titles and measurement units)
 - Capitalization (kinda? it's broken, at least)
 
