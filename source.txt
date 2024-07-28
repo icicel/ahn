@@ -35,47 +35,47 @@ Update: Now uses Y in place of W and apostrophes in place of dashes
 isakhammarlund@gmail.com
 
 
-###phrases1, Language1...:
+###phrases1, Text list...:
 .
 
 
-###phrases2, Language2...:
+###phrases2, Āĥn list...:
 ·
 
 
-###words1, Language1...:
+###words1, Text list...:
 .
 
 
-###words2, Language2...:
+###words2, Āĥn list...:
 ·
 
 
-###intraword1, Language1...:
+###intraword1, Text list...:
 .
 
 
-###intraword2, Language2...:
+###intraword2, Āĥn list...:
 ·
 
 
-###prefixes1, Language1...:
+###prefixes1, Text list...:
 .
 
 
-###prefixes2, Language2...:
+###prefixes2, Āĥn list...:
 ·
 
 
-###suffixes1, Language1...:
+###suffixes1, Text list...:
 .
 
 
-###suffixes2, Language2...:
+###suffixes2, Āĥn list...:
 ·
 
 
-###regex1, Replace this...:
+###regex1, Text list...:
 /å/g
 /ä/g
 /ö/g
@@ -217,7 +217,7 @@ isakhammarlund@gmail.com
 /·|,,|::/g
 
 
-###regex2, with this...:
+###regex2, Āĥn list...:
 å
 ä
 ö
@@ -361,19 +361,19 @@ g̨
 
 
 
-###rev_regex1, Replace this...:
+###rev_regex1, Āĥn list...:
 
 
 
-###rev_regex2, with this...:
+###rev_regex2, Text list...:
 
 
 
-###ordering1, Language1...:
+###ordering1, Text list...:
 
 
 
-###ordering2, Language2...:
+###ordering2, Āĥn list...:
 
 
 
