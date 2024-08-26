@@ -21,6 +21,7 @@ This is a dumb code where vowels become diacritics and consonants are shuffled a
 
 Check out the [GitHub repo](https://github.com/icicel/ahn) for a complete substitution table and grammar, and the source RegEx.
 
+Update 10: Now uses X instead of ¤ for "you"  
 Update 9: Now performs Y insertion automatically  
 Update 8: Can now simulate new paragraphs with "<>"  
 Update 7: Now places leading vowels on the first letter instead of on the last letter. Also, RegEx logic can now handle infinite complexity  
@@ -186,12 +187,12 @@ isakhammarlund@gmail.com
 /z/g
 /q/g
 /ß/g
+/¤/g
 /<>/g
 /(?<=[^́̀̋̏̈̂̃̉̄̇̊͛̌a-z¤]|^|¶)(['’‘])(.*?)\1(?=[^́̀̋̏̈̂̃̉̄̇̊͛̌a-z]|$|¶)/g
 /["“”„](.*?)["“”]/g
 /["“”„]/g
 /['’‘]/g
-/¤͛/g
 /(?<=([a-z])[́̀̋̏̈̂̃̉̄̇̊͛̌]*)\1/g
 /\*/g
 /(?<=[a-z][́̀̋̏̈̂̃̉̄̇̊͛̌̍]*)[^́̀̋̏̈̂̃̉̄̇̊͛̌̍a-z¶][^a-z¶]*[́̀̋̏̈̂̃̉̄̇̊͛̌̍][^a-z¶]*/g
@@ -343,12 +344,12 @@ p
 b
 z
 c
+x
 ¶
 «$2»
 «$1»
 «
 ͛
-¤'
 ̍
 ^
 $&¦$&
