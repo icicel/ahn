@@ -152,9 +152,10 @@ Use vowels responsibly!
 - eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeasy - ************"ṓ́́́́́́́́́́́́́́́́́́́́́́́́́́́́́́́́́́́́̈ 
 
 When there are no consonants *at all*, add a dummy Y for the vowels to latch on to.
-It should be the first character of the paragraph.
-- aeiou - ÿ́̀̂̃*"
-- a.e.i.o.u. - ÿ́̀̂̃'.'.'.'.'.
+It should be placed right before the first vowel.
+- aeiou - ÿ́̀̂̃
+- a.e.i.o.u. - ÿ́̀̂̃.'.'.'.'.
+- *[aeiou] - ^[ÿ́̀̂̃]
 
 ## FORMATTING
 
