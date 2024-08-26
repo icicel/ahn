@@ -75,6 +75,10 @@ This also means that kerning is effectively cancelled if there is a symbol in th
 A common exception is for numbers, which do allow the kerning to take place (assuming there's whitespace that can be kerned).
 - my 12 oranges - r̄̂ 12'ëad́o
 
+Note that the above exception causes loss of spacing information.
+Context should be sufficient in most cases, though.
+- my 12oranges - r̄̂ 12'ëad́o
+
 ### Paragraph-initially
 
 At the start of a paragraph, there is no consonant to the left that the vowel can latch on to.
@@ -120,19 +124,26 @@ Words consisting of only vowels are translated to just a carryback.
 This is called a "lonely" carryback since it's not next to a letter by default.
 These always force kerning to happen if it can, even with symbols (but not with other carrybacks, of course).
 - here I stand - śé̀' oȷ̈an
+- here I am - śé̀̈' 'r
 - look, a bird - û̂ḧ,' g̀en
 - me, & I - ŕ̀, &'
 
-When at the start of a paragraph, lonely carrybacks behave like normal carrybacks, since no kerning can happen.
-- a fool moon night - ' m̂̂̈u r̂̂a àdsı
-- ¡ay caramba! - ¡" ẗ̈̄ërg̈!
+If a lonely single carryback can't be kerned for any reason, such as being next to another carryback or at the start of a paragraph, the kerning may be attempted in the other direction.
+This is done in a special process called "commafication", where, along with the reverse-kerning, the carryback is also replaced with a comma.
+- a fool moon night - ,m̂̂̈u r̂̂a àdsı
+- I purchase (I think) - ,k̃̀ets̈ó̀ (,ıs̀ah)
+- but Y U sad - g̃ı̄̃' ,ön
+
+The difference between commafication and regular kerning, apart from being done to the right, is that the kerning can happen with other, non-lonely, carrybacks.
+- u are mean - ,'é̃̈ ŕ̈a
+- I ain't smart - ,"a͛̀̈̀ı or̈eı
+
+If commafication fails too, the carryback remains unkerned.
+- ay caramba - " ẗ̈̄ërg̈
+- but Y U - g̃ı̄̃' '
+- but Y U a sad person - g̃ı̄̃̈' ' ,ön ḱeôa
 
 ### Edge cases
-
-If there are several carrybacks in a row, but separated by space, they are not merged and the spacing remains, even for lonely carrybacks.
-The carrybacked vowels are, however, still stacked as if they were one carryback.
-- here I am - śé̀̈' 'r
-- but Y U angry - g̃ı̄̃̈' ' 'adē
 
 There are no limits on the amount of vowels that can be carrybacked.
 Eventually, things could get messy.
