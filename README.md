@@ -37,6 +37,22 @@ Keep in mind that due to the complicated contexts in which they apply, certain r
 
 ### Symbol substitutions
 
+### Ordinal sign
+
+Ordinal numerals are represented with the ordinal sign, which is a period like in German.
+- 1st - 1.
+- 2nd - 2.
+- 3rd - 3.
+- 674138th - 674138.
+- 0th - 0.
+
+This is only in their numeric form, otherwise ordinals are unaffected.
+- first - m̀eoı
+- second - ót̂an
+- third - ıs̀en
+- sixhundredandseventyfourthousandonehundredandthirtyeighth - òfs̃anén̈anóĺaı̄m̂̃eıŝ̃öan̂ás̃anén̈anıs̀eı̄́̀dsıs
+- zeroth - b́êıs
+
 ### Units of measurement
 
 ## CARRYBACKS
@@ -70,10 +86,12 @@ For the purposes of carrybacking, symbols don't count as letters and carrybacks 
 This also means that kerning is effectively cancelled if there is a symbol in the way.
 - "super" agile - «õḱë» 'd̀ú
 - they & us - ıś̄̃ & 'o
-- murder is 100% illegal - r̃eńè'ò 100% 'ú̧d̈u
 
 A common exception is for numbers, which do allow the kerning to take place (assuming there's whitespace that can be kerned).
+This includes the ordinal sign or percent sign.
 - my 12 oranges - r̄̂ 12'ëad́o
+- 5th avenue - 5.'ĺ̈ã́
+- murder is 100% illegal - r̃eńè'ò 100%'ú̧d̈u
 
 Note that the above exception causes loss of spacing information.
 Context should be sufficient in most cases, though.
