@@ -33,25 +33,55 @@ Keep in mind that due to the complicated contexts in which they apply, certain r
 
 ### Vowels
 
+### Other characters
+
 ## SYMBOLS
 
-### Symbol substitutions
+Sometimes, it happens that text contains characters which don't have a proper substitution from the tables above.
+These are called "symbols", and include things such as punctuation, brackets, math symbols, slashes and more.
+The way these characters are handled is that they simply are left unsubstituted.
+- many, symbols! - r̈ā, ōrĝwo!
+- (brackets) - (gëth́ȷo)
+- math + stuff =‌ true - r̈ıs + oı̃m̧ =‌ ȷẽ́
+- slashes/too - oẅośo/ı̂̂ 
 
-### Ordinal sign
+### Numbers and number formatting
 
-Ordinal numerals are represented with the ordinal sign, which is a period like in German.
+By the above definition, numbers are also considered symbols.
+This is, of course, not the case with number words, which can be translated as usual as they are composed of regular letters.
+- we 3 bears - ṕ 3 ǵ̈eo
+- we three bears - ṕ ısé́ ǵ̈eo
+
+Numbers are formatted in different ways depending on how they are used.
+Ordinal numbers are represented with the ordinal sign, a period, like in German.
 - 1st - 1.
 - 2nd - 2.
 - 3rd - 3.
 - 674138th - 674138.
 - 0th - 0.
 
-This is only in their numeric form, otherwise ordinals are unaffected.
+And like regular numbers, spelled-out ordinals are translated by regular means.
 - first - m̀eoı
 - second - ót̂an
 - third - ıs̀en
 - sixhundredandseventyfourthousandonehundredandthirtyeighth - òfs̃anén̈anóĺaı̄m̂̃eıŝ̃öan̂ás̃anén̈anıs̀eı̄́̀dsıs
 - zeroth - b́êıs
+
+Numbers that are paired up with a month to form a date should be converted to the numerical D/M format instead, along with the month.
+This is done regardless of whether it's spelled-out or not.
+- March 15th - 15/3
+- March 15 - 15/3
+- 15th of March - 15/3
+- fifteenth of March - 15/3
+- fifteenth of the third - 15/3
+
+This is *not* done if the date is entirely numerical.
+- 15-03-2021 - 15-03-2021
+- 2021-03-15 - 2021-03-15
+
+Unless it's the objectively inferior M/D format.
+Sorry, not sorry.
+- 9/11 2001 - 11/9 2001
 
 ### Units of measurement
 
