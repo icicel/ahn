@@ -252,9 +252,12 @@ These are the double vertical line and the vertical tilde respectively.
 - lulllull - ũ̾̃̎
 - hmmmmm - syŗ̾
 
-For some reason, putting a cedilla on the lowercase G automatically places it above it (ģ).
-For consistency's sake, an ogonek is used instead.
-- kibble - h̀yg̨ú
+Note that, for some reason, putting a cedilla on the lowercase G automatically places it above it in most fonts.
+For consistency's sake, an ogonek can be used instead,
+or you can just place a zero-width non-joiner character (ZWNJ) between the G and the cedilla.
+- kibble - h̀yģú (cedilla)
+- kibble - h̀yg̨ú (ogonek)
+- kibble - h̀yg‌̧ú (ZWNJ + cedilla)
 
 ### Shorthand
 
