@@ -21,6 +21,7 @@ This is a dumb code where vowels become diacritics and consonants are shuffled a
 
 Check out the [GitHub repo](https://github.com/icicel/ahn) for a complete substitution table and grammar, and the source RegEx.
 
+Update 11: Now is smarter when parsing quotes. Use backslash to escape apostrophes in single quotes
 Update 10: Now uses X instead of ¤ for "you"  
 Update 9: Now performs Y insertion automatically  
 Update 8: Can now simulate new paragraphs with "<>"  
@@ -190,8 +191,11 @@ isakhammarlund@gmail.com
 /q/g
 /ß/g
 /<>/g
-/(?<=[^́̀̋̏̈̂̃̉̄̇̊͛̌a-z¤]|^|¶)(['’‘])(.*?)\1(?=[^́̀̋̏̈̂̃̉̄̇̊͛̌a-z]|$|¶)/g
-/["“”„](.*?)["“”]/g
+/\\['’‘]/g
+/(?<=[^́̀̋̏̈̂̃̉̄̇̊͛̌a-z¤\\]|^|¶)['’‘](?=(?:['’‘].*?['’‘]|[^'’‘]|\\['’‘])*?['’‘](?:[^́̀̋̏̈̂̃̉̄̇̊͛̌a-z¤]|$|¶))/g
+/(?<=[^́̀̋̏̈̂̃̉̄̇̊͛̌a-z¤\\]|^|¶)["“”„](?=(?:["“”„].*?["“”„]|[^"“”„])*?["“”„](?:[^́̀̋̏̈̂̃̉̄̇̊͛̌a-z¤]|$|¶))/g
+/(?<=(?:[^́̀̋̏̈̂̃̉̄̇̊͛̌a-z¤\\]|^|¶)«(?:«.*?['’‘]|[^'’‘]|\\['’‘])*?)['’‘](?=[^́̀̋̏̈̂̃̉̄̇̊͛̌a-z¤]|$|¶)/g
+/(?<=(?:[^́̀̋̏̈̂̃̉̄̇̊͛̌a-z¤\\]|^|¶)«(?:«.*?["“”„]|[^"“”„])*?)["“”„](?=[^́̀̋̏̈̂̃̉̄̇̊͛̌a-z¤]|$|¶)/g
 /["“”„]/g
 /['’‘]/g
 /(?<=([a-z])[́̀̋̏̈̂̃̉̄̇̊͛̌]*)\1/g
@@ -351,8 +355,11 @@ b
 z
 c
 ¶
-«$2»
-«$1»
+͛
+«
+«
+»
+»
 «
 ͛
 ̍
