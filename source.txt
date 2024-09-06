@@ -84,9 +84,10 @@ isakhammarlund@gmail.com
 /ü/g
 /é/g
 /[̧̨́̀̋̏̈̂̃̉̄̇̊͛̌̍̎]/g
-/(?<![a-zåäöüéß])you(r|rs|rself|rselves|re|ll|dve|d|ve|all|'r|'re|'ll|'d've|'d|'ve|s|se|ses)?(?![a-zåäöüéß])/g
-/(?<![a-zåäöüéß])th(?:e|('))(?![a-zåäöüéß])/g
-/(?<![a-zåäöüéß])of(?![a-zåäöüéß])/g
+/\byou(?=[rlvsa]|\b)/g
+/\bthe?\b/g
+/\bof\b/g
+/(?<=\bo) (?=[ae]\b)/g
 /(?<=[0-9])(th|st|nd|rd|e|de)/g
 /å/g
 /ä/g
@@ -244,9 +245,10 @@ isakhammarlund@gmail.com
 ü
 é
 
-¤$1
-e$1
+¤
+e
 o
+
 №
 ̊
 ̇
