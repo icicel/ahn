@@ -88,6 +88,7 @@ isakhammarlund@gmail.com
 /\byou(?=[rlvsa]|\b)/g
 /\bthe?\b/g
 /\bof\b/g
+/\band\b/g
 /(?<=\bo) (?=[ae]\b)/g
 /(?<=[0-9])(th|st|nd|rd|e|de)/g
 /å/g
@@ -252,6 +253,7 @@ isakhammarlund@gmail.com
 ¤
 e
 o
+&
 
 №
 ̊
