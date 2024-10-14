@@ -15,23 +15,30 @@ Āĥn
 
 
 ###description, Description...:
-IMPORTANT: There's a bug with Lingojam where all periods (.) behave somewhat strangely in RegEx logic (specifically, they're hard-coded to behave as line endings). To solve this, replace all your periods with a middle dot (·), double comma (,,) or double colon (::), and the translator will turn them back into periods automatically after they've been processed.
-
 This is a dumb code where vowels become diacritics and consonants are shuffled around. Works with the English letters A-Z and also the letters Ä Ö Ü ß Å É. Doesn't handle capitalization very well, but that's an engine bug and won't be fixed.
 
 Check out the [GitHub repo](https://github.com/icicel/ahn) for a complete substitution table and grammar, and the source RegEx.
 
-Update 11: Now is smarter when parsing quotes. Use backslash to escape apostrophes in single quotes
-Update 10: Now uses X instead of ¤ for "you"  
-Update 9: Now performs Y insertion automatically  
-Update 8: Can now simulate new paragraphs with "<>"  
-Update 7: Now places leading vowels on the first letter instead of on the last letter. Also, RegEx logic can now handle infinite complexity  
-Update 6: Now automatically converts I to J and U to W in some cases to aid in legibility  
-Update 5: Now uses dotless ı instead of i, to avoid confusion with the translation of "tä"  
-Update 4: Now translates the word "you" and related words (your, you're, yourself etc.) into "¤" (¤e, ¤'é, ¤eóum). In my opinion, this looks better than "̄̂̃*", especially for such a common word.  
-Update 3: Now doesn't use Y at all, leading vowels are instead looped around to the final letter  
-Update 2: Now uses quote marks and asterisks instead of multiple apostrophes in a row  
-Update: Now uses Y in place of W and apostrophes in place of dashes
+### Quirks
+
+- There's a bug with Lingojam where all periods behave somewhat strangely in RegEx logic (specifically, they're hard-coded to behave as line endings). To work around this, use the period workaround below.
+
+- Quotes made with single quote marks do weird stuff with apostrophes inside them. Backslash-escaping all apostrophes inside quotes should fix most issues.
+
+### Workaround shortcuts
+
+| Input | Equivalent |
+|:-:|:-:|
+| · or ,, or :: | . |
+| ,,, or ::: | ... |
+| \' | ' |
+| < | ‹ |
+| > | › |
+| \< | < |
+| \> | > |
+| <> | new paragraph |
+
+Final tip: try translating "silse".
 
 
 ###email, Admin email (optional)...:
