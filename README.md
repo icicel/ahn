@@ -45,7 +45,7 @@ The way these characters are handled is that they simply are left unsubstituted.
 - math + stuff =‌ true - r̈ıs + oı̃m̧ =‌ ȷẽ́
 - slashes/too - oẅośo/ı̂̂ 
 
-### Numbers and number formatting
+### Numbers
 
 By the above definition, numbers are also considered symbols.
 This is, of course, not the case with number words, which can be translated as usual as they are composed of regular letters.
@@ -60,15 +60,22 @@ Ordinal numbers are represented with the ordinal sign, a period, like in German.
 - 674138th - 674138.
 - 0th - 0.
 
-And like regular numbers, spelled-out ordinals are translated by regular means.
+And like regular numbers, ordinal number words are translated by regular means.
 - first - m̀eoı
 - second - ót̂an
 - third - ıs̀en
 - sixhundredandseventyfourthousandonehundredandthirtyeighth - òfs̃anén̈anóĺaı̄m̂̃eıŝ̃öan̂ás̃anén̈anıs̀eı̄́̀dsıs
 - zeroth - b́êıs
 
+The thousands delimiter should be converted to the SI space.
+There is no need to add a delimiter if there is none.
+- 100,000 -> 100 000
+- 100000 -> 100000
+
+### Dates
+
 Numbers that are paired up with a month to form a date should be converted to the numerical D/M format instead, along with the month.
-This is done regardless of whether it's spelled-out or not.
+This is done regardless of whether it's a number word or not.
 - March 15th - 15/3
 - March 15 - 15/3
 - 15th of March - 15/3
