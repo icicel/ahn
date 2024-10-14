@@ -90,8 +90,6 @@ Unless it's the objectively inferior M/D format.
 Sorry, not sorry.
 - 9/11 2001 - 11/9 2001
 
-### Units of measurement
-
 ## CARRYBACKS
 
 When using the above substitutions naïvely, one quickly runs into problems when faced with words that start with a vowel.
@@ -415,13 +413,27 @@ If there would be duplets as a result of this, the final vowel is replaced anywa
 - SÄPO's mission - SÄPOa r̀ò̧̂a
 - NASA's mission - NASa r̀ò̧̂a
 
-### Units of measurement
+## UNITS
 
-When abbreviated, units of measurement count as symbols and are translated as such.
-Unabbreviated units don't count.
-- Only 5 km to Paris - 'Âw̄ 5 km ı̂ Paris
-- Only 5 kilometers to Paris - 'Âw̄ 5 h̀ûŕȷ́eo ı̂ Paris
+Units of measurement such as SI units, currencies, percentages, degrees and so on have both a "short form", which should not be translated, and an unabbreviated "long form", which should be.
+Often this "short form" is a symbol and thus follows the usual rules.
+- This costs 10€ - Is̀o t̂oȷo 10€
+- This costs 10 euro - Is̀o t̂oȷó̃ 10"ê
+- 5% alcohol - 5%'üt̂ŝu
+- 5 percent alcohol - 5 ḱet́aı̈'ut̂ŝu
+
+Sometimes a unit's short form is made of letters.
+Despite technically being an abbreviation, they should still be counted as symbols.
 - 3V battery - 3V g̈ȷ̧́ē
 - 3 volt battery - 3 l̂wı g̈ȷ̧́ē
+- Three V battery - Isé́ V g̈ȷ̧́ē
+
+The space between a number and a unit should be removed if both are in symbol form.
+This hilariously directly contradicts the SI style guide.
+- Only 5 km to Paris - 'Âw̄ 5km ı̂ Paris
+
+Some units' symbols are indentical to their full forms.
+In these cases, always treat them as symbols.
+- 5 bar pressure - 5bar kéõ̧é
 
 # Explanation of the RegEx
