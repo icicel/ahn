@@ -266,8 +266,6 @@ or you can just place a zero-width non-joiner character (ZWNJ) between the G and
 
 ### Shorthand
 
-### Letters with diacritics
-
 ## CAPITALIZATION
 
 (This is more of a style guideline than a rule.)
