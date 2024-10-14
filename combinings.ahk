@@ -19,8 +19,6 @@ StringCaseSense, On
 <^>!+.::Send {U+0307} ;dot ȧ
 <^>!,::Send {U+0327} ;hook a̧
 <^>!+,::Send {U+0328} ;ogonek ą
-<^>!<::Send {U+030C} ;caron ǎ
-<^>!+<::Send {U+0306} ;breve ă
 <^>!1:: Send {U+030D} ;vertical line a̍
 <^>!+1:: Send {U+030E} ;double vertical line a̎
 <^>!+0::Send {U+030A} ;ring å
@@ -43,6 +41,10 @@ StringCaseSense, On
 <^>!d::Send {U+00F0} ; ð
 <^>!+d::Send {U+00D0} ; Ð
 <^>!s::Send {U+00DF} ; ß
+<^>!+8::Send {U+2039} ; ‹
+<^>!+9::Send {U+203A} ; ›
+<^>!<::Send {U+00AB} ; «
+<^>!+<::Send {U+00BB} ; »
 
 ; Capitalizes the selected text
 ; If shift is not pressed, the character right of the cursor is automatically selected
