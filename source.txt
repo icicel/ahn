@@ -85,6 +85,8 @@ isakhammarlund@gmail.com
 /ü/g
 /é/g
 /[̧̨́̀̋̏̈̂̃̉̄̇̊͛̌̍̎]/g
+/,,,|:::/g
+/,,|::/g
 /\byou(?=[rlvsa]|\b)/g
 /\bthe?\b/g
 /\bof\b/g
@@ -239,8 +241,7 @@ isakhammarlund@gmail.com
 /s(?=́̇|̌̇)/g
 /[dgklnr](?=̧)/g
 /^ +| +(?= |$)/g
-/,,,|:::/g
-/·|,,|::|№/g
+/·|№/g
 
 
 ###regex2, Āĥn list...:
@@ -250,6 +251,8 @@ isakhammarlund@gmail.com
 ü
 é
 
+···
+·
 ¤
 e
 o
@@ -404,7 +407,6 @@ $&‌
 $&‌
 $&‌
 
-...
 .
 
 
