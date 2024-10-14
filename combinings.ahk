@@ -25,6 +25,7 @@ StringCaseSense, On
 <^>!+1:: Send {U+030E} ;double vertical line a̎
 <^>!+0::Send {U+030A} ;ring å
 <^>!+7::Send {U+035B} ;zigzag a͛
+<^>!+5::Send {U+033D} ;x a̽
 +Space::Send {U+200C} ;ZWNJ
 
 ; Workarounds for overridden keys
