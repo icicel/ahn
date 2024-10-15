@@ -395,16 +395,18 @@ Also, the Y insertion rules are ignored.
 
 ### Proper abbreviations
 
-Abbreviations of proper nouns are not modified apart from removing the full stop if it's included.
-- James R. Smith - James R Smith
-- Born in the USA - Ĝeà'a USA
+Abbreviations of proper nouns are not translated.
+Any full stops are removed, but only from initialisms.
+- James R. Smith Jr. - James R Smith Jr.
+- Born in the U.S.A. - Ĝeà'a USA
 
-Additionally and specifically in the case of names, several abbrevations in a row are merged.
+If there are several initialisms in a row, they are merged.
+This mostly happens with people names.
 - The works of J. R. R. Tolkien - Iś p̂ehô'm JRR Tolkien
 
 Abbreviated proper modifiers are unabbreviated and then handled as usual.
 - W. Jefferson - Poijefferson
-- Mt. Blanc - Raiblanc
+- Mt Blanc - Raiblanc
 
 Noun suffixes don't replace the ending vowels and are just appended.
 If there would be duplets as a result of this, the final vowel is replaced anyway.
