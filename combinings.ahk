@@ -47,10 +47,8 @@ StringCaseSense, On
 <^>!+<::Send {U+00BB} ; »
 
 ; Capitalizes the selected text
-; If shift is not pressed, the character right of the cursor is automatically selected
 <^>!k::
 Send +{Right}
-<^>!+k::
 Send ^c
 Sleep, 50
 StringUpper, clipboard, clipboard
@@ -62,7 +60,6 @@ return
 ; As above, but converts to lowercase
 <^>!l::
 Send +{Right}
-<^>!+l::
 Send ^c
 Sleep, 50
 clipboard := StrReplace(clipboard, "I", "ı")
@@ -73,6 +70,7 @@ return
 
 ; Replace periods with middle dots
 <^>!.::
+Send +{Right}
 Send ^c
 Sleep, 50
 clipboard := StrReplace(clipboard, ".", "·")
@@ -81,6 +79,7 @@ return
 
 ; Convert selected text to title case
 <^>!m::
+Send +{Right}
 Send ^c
 Sleep, 50
 StringUpper, clipboard, clipboard, T
@@ -112,5 +111,24 @@ clipboard := StrReplace(clipboard, "j", "i")
 clipboard := StrReplace(clipboard, "J", "I")
 clipboard := StrReplace(clipboard, "w", "u")
 clipboard := StrReplace(clipboard, "W", "U")
+Send ^v
+return
+
+; Remove dots from I and J
+<^>!o::
+Send +{Right}
+Send ^c
+Sleep, 50
+clipboard := StrReplace(clipboard, "i", "ı")
+clipboard := StrReplace(clipboard, "j", "ȷ")
+Send ^v
+return
+
+; Undo above
+<^>!u::
+Send ^c
+Sleep, 50
+clipboard := StrReplace(clipboard, "ı", "i")
+clipboard := StrReplace(clipboard, "ȷ", "j")
 Send ^v
 return
